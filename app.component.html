@@ -1,0 +1,15 @@
+<div class="relative w-full h-full">
+  
+  <!-- View Switcher (Fixed floating button for demo purposes) -->
+  <button (click)="toggleView()" 
+    class="fixed bottom-4 right-4 z-[100] bg-gray-900 text-white px-4 py-2 rounded-full shadow-lg hover:bg-gray-700 text-xs font-bold uppercase tracking-wider opacity-80 hover:opacity-100 transition">
+    Switch to {{ currentView() === 'shop' ? 'Admin' : 'Shop' }}
+  </button>
+
+  @if (currentView() === 'shop') {
+    <app-shop-view></app-shop-view>
+  } @else {
+    <app-admin-dashboard></app-admin-dashboard>
+  }
+
+</div>
