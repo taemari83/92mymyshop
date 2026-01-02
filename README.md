@@ -1,4 +1,4 @@
-# Cross-Border E-Commerce Manager (92mymyshop)
+# Cross-Border E-Commerce Manager (環球選物 Global Shop)
 
 A comprehensive e-commerce solution tailored for cross-border sellers, featuring a dual-view interface: a customer-facing shop and an internal admin dashboard.
 
