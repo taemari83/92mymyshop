@@ -13,18 +13,18 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/92mymy-shop",
-            "index": "index.html",
-            "browser": "src/main.ts",
-            "polyfills": ["zone.js"],
-            "tsConfig": "tsconfig.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": ["src/styles.css"],
-            "scripts": []
-          },
+            "outputPath": {
+             "base": "dist/92mymy-shop",
+             "browser": "browser"
+           },
+           "index": "src/index.html",
+           "browser": "src/main.ts",
+           "tsConfig": "tsconfig.json",
+           "inlineStyleLanguage": "css",
+           "assets": [],
+           "styles": ["src/styles.css"],
+           "scripts": []
+          }
           "configurations": {
             "production": {
               "budgets": [
