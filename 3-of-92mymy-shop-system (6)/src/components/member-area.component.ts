@@ -198,7 +198,7 @@ import { StoreService, Order } from '../services/store.service';
                <h3 class="text-xl font-bold text-brand-900">我的訂單</h3>
                <div class="text-xs text-gray-500 bg-gray-100 px-3 py-1 rounded-full flex items-center gap-1">
                  <span>💬 訂單有問題？請加入官方 LINE:</span>
-                 <span class="font-bold text-brand-600 select-all">@289wxmsb</span>
+                 <span class="font-bold text-brand-600 select-all">&#64;289wxmsb</span>
                </div>
             </div>
             
