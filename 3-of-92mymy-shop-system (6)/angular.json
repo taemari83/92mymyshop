@@ -17,7 +17,7 @@
              "base": "dist/92mymy-shop",
              "browser": "browser"
            },
-           "index": "src/index.html",
+           "index": "index.html",
            "browser": "src/main.ts",
            "tsConfig": "tsconfig.json",
            "inlineStyleLanguage": "css",
