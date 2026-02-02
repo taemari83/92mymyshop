@@ -1,9 +1,9 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 import { AppComponent } from './app/app.component';
-import { provideZoneChangeDetection } from '@angular/core'; // 改這裡
+import { provideZoneChangeDetection } from '@angular/core';
 
 bootstrapApplication(AppComponent, {
   providers: [
-    provideZoneChangeDetection({ eventCoalescing: true }) // 改這裡
+    provideZoneChangeDetection({ eventCoalescing: true })
   ]
 }).catch(err => console.error(err));
